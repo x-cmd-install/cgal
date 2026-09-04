@@ -1,0 +1,81 @@
+about:
+  description: The public CGAL repository, see the README below
+  license: NOASSERTION
+  homepage: https://github.com/CGAL/cgal#readme
+  head: fbc5112
+  archived: false
+  latestVersion: v6.2
+  collectedAt: 2026-09-04T04:46:24Z
+timeline:
+  created: 2014-10-01
+  lastCommit: 2026-09-02
+  lastRelease: 2026-06-11
+popularity:
+  star: 6032
+  watcher: 168
+  fork: 1587
+  release: 97
+  contributor: 244
+  pullRequest: 600
+  issue: 3440
+language:
+  C++: 67314511
+  Mathematical Programming System: 6485497
+  TypeScript: 2294630
+  CMake: 886953
+  Shell: 191385
+  Python: 141032
+  TeX: 126972
+  C: 103191
+  Pyret: 103170
+  Perl: 82534
+  GLSL: 55493
+  Makefile: 45220
+  JavaScript: 38859
+  Batchfile: 35610
+  HTML: 32252
+  Julia: 30485
+  Ruby: 20353
+  Lua: 16918
+  Lex: 15883
+  Yacc: 11073
+  Roff: 10710
+  CSS: 9627
+  Gnuplot: 4218
+  Dockerfile: 1884
+  sed: 170
+  Arc: 38
+totalLine: 78058668
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 10
+    openPR: 11
+    closedIssue: 6
+    openIssue: 6
+    commit: 82
+  last90d:
+    since: 2026-06-06
+    release: 2
+    mergedPR: 54
+    openPR: 24
+    closedIssue: 14
+    openIssue: 13
+    commit: 369
+  last180d:
+    since: 2026-03-08
+    release: 3
+    mergedPR: 131
+    openPR: 49
+    closedIssue: 34
+    openIssue: 23
+    commit: 919
+  last360d:
+    since: 2025-09-09
+    release: 9
+    mergedPR: 290
+    openPR: 82
+    closedIssue: 70
+    openIssue: 48
+    commit: 2605
