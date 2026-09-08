@@ -5,7 +5,7 @@ about:
   head: c657442
   archived: false
   latestVersion: "v6.1.3"
-  collectedAt: 2026-09-08T01:28:21Z
+  collectedAt: 2026-09-08T03:33:45Z
 timeline:
   created: 2014-10-01
   lastCommit: 2026-09-07
@@ -104,7 +104,7 @@ total:
   commit: 117083
 ---
 path: /home/runner/.x-repo/github.com/CGAL/cgal
-collectedAt: 2026-09-08T01:29:32Z
+collectedAt: 2026-09-08T03:36:35Z
 loc:
   CHeader:
     code: 996243
