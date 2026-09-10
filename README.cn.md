@@ -4,7 +4,7 @@
 
 The public CGAL repository, see the README below
 
-![cgal](https://repo.x-cmd.io/cgal.svg)
+![cgal](https://repo.x-cmd.io/cgal.svg?lang=zh)
 
 ## 安装
 
@@ -21,25 +21,41 @@ x install cgal
 ## 发布
 
 - **最新版本**: `v6.1.3` (2026-09-04)
-- **最近提交**: 2026-09-09
+- **最近提交**: 2026-09-10
 - **Release 含资产**: 12 个
-- **发布时间**: 2026-09-04T13:39:57Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [CGAL-6.2.1-doc_html.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-doc_html.tar.xz) | 71.5 MiB | `other` |
+| [CGAL-6.2.1-doc_html.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-doc_html.zip) | 109.4 MiB | `other` |
+| [CGAL-6.2.1-examples.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-examples.tar.xz) | 20.2 MiB | `other` |
+| [CGAL-6.2.1-examples.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-examples.zip) | 28.7 MiB | `other` |
+| [CGAL-6.2.1-library.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-library.tar.xz) | 5.1 MiB | `other` |
+| [CGAL-6.2.1-library.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-library.zip) | 10.4 MiB | `other` |
+| [CGAL-6.2.1-win64-auxiliary-libraries-gmp-mpfr.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-win64-auxiliary-libraries-gmp-mpfr.zip) | 2.2 MiB | `native/win/x64` |
+| [CGAL-6.2.1.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1.tar.xz) | 25.4 MiB | `other` |
+| [CGAL-6.2.1.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1.zip) | 39.2 MiB | `other` |
+| [md5sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/md5sum.txt) | 651 B | `other` |
+| [sha256sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha256sum.txt) | 1003 B | `other` |
+| [sha512sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha512sum.txt) | 1.7 KiB | `other` |
 
 ## 流行度
 
-- **Star**: 6,034 · **Fork**: 1,588 · **开放 issue**: 3,442 · **贡献者**: 205
+- **Star**: 6,036 · **Fork**: 1,590 · **开放 issue**: 3,445 · **贡献者**: 205
 
 ## 累计统计
 
-- **发布数**: 99 · **已合并 PR**: 5214 · **开放 PR**: 171 · **已关闭 issue**: 2935 · **开放 issue**: 507 · **提交数**: 117117
+- **发布数**: 99 · **已合并 PR**: 5215 · **开放 PR**: 174 · **已关闭 issue**: 2936 · **开放 issue**: 509 · **提交数**: 117119
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 12 | 16 | 6 | 8 | 107 |
-| 90d | 2026-06-12 | 2 | 56 | 25 | 13 | 12 | 364 |
-| 360d | 2025-09-15 | 11 | 299 | 79 | 70 | 48 | 2628 |
+| 30d | 2026-08-11 | 2 | 13 | 19 | 7 | 10 | 109 |
+| 90d | 2026-06-12 | 2 | 57 | 28 | 14 | 14 | 366 |
+| 360d | 2025-09-15 | 11 | 300 | 82 | 71 | 50 | 2630 |
 
 ## 代码规模
 
@@ -72,4 +88,4 @@ cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T02:49:51Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:56:03Z._

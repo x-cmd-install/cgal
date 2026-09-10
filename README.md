@@ -21,25 +21,41 @@ x install cgal
 ## Release
 
 - **Latest**: `v6.1.3` (2026-09-04)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-10
 - **Assets in release**: 12
-- **Published**: 2026-09-04T13:39:57Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [CGAL-6.2.1-doc_html.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-doc_html.tar.xz) | 71.5 MiB | `other` |
+| [CGAL-6.2.1-doc_html.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-doc_html.zip) | 109.4 MiB | `other` |
+| [CGAL-6.2.1-examples.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-examples.tar.xz) | 20.2 MiB | `other` |
+| [CGAL-6.2.1-examples.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-examples.zip) | 28.7 MiB | `other` |
+| [CGAL-6.2.1-library.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-library.tar.xz) | 5.1 MiB | `other` |
+| [CGAL-6.2.1-library.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-library.zip) | 10.4 MiB | `other` |
+| [CGAL-6.2.1-win64-auxiliary-libraries-gmp-mpfr.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-win64-auxiliary-libraries-gmp-mpfr.zip) | 2.2 MiB | `native/win/x64` |
+| [CGAL-6.2.1.tar.xz](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1.tar.xz) | 25.4 MiB | `other` |
+| [CGAL-6.2.1.zip](https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1.zip) | 39.2 MiB | `other` |
+| [md5sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/md5sum.txt) | 651 B | `other` |
+| [sha256sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha256sum.txt) | 1003 B | `other` |
+| [sha512sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha512sum.txt) | 1.7 KiB | `other` |
 
 ## Popularity
 
-- **Stars**: 6,034 · **Forks**: 1,588 · **Open issues**: 3,442 · **Contributors**: 205
+- **Stars**: 6,036 · **Forks**: 1,590 · **Open issues**: 3,445 · **Contributors**: 205
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5214 · **Open PRs**: 171 · **Closed issues**: 2935 · **Open issues**: 507 · **Commits**: 117117
+- **Releases**: 99 · **Merged PRs**: 5215 · **Open PRs**: 174 · **Closed issues**: 2936 · **Open issues**: 509 · **Commits**: 117119
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 12 | 16 | 6 | 8 | 107 |
-| 90d | 2026-06-12 | 2 | 56 | 25 | 13 | 12 | 364 |
-| 360d | 2025-09-15 | 11 | 299 | 79 | 70 | 48 | 2628 |
+| 30d | 2026-08-11 | 2 | 13 | 19 | 7 | 10 | 109 |
+| 90d | 2026-06-12 | 2 | 57 | 28 | 14 | 14 | 366 |
+| 360d | 2025-09-15 | 11 | 300 | 82 | 71 | 50 | 2630 |
 
 ## Code size
 
@@ -68,8 +84,8 @@ Lowest-scoring checks:
 Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cgal` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/cgal.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/cgal.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T02:49:50Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:56:01Z._
