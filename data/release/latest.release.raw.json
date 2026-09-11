@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 5381220,
       "digest": "sha256:8e7ce1e30e8ffcb3e69d153c3a561bb1f38bbb4becd8e6544cbaa0fb2889af62",
-      "download_count": 91,
+      "download_count": 96,
       "created_at": "2026-09-04T13:34:29Z",
       "updated_at": "2026-09-04T13:34:30Z",
       "browser_download_url": "https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-library.tar.xz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 10925461,
       "digest": "sha256:db49ffa9d2c5a3386e0725983bf3478e3fd2ade43553f8fc3900e18554decd49",
-      "download_count": 51,
+      "download_count": 56,
       "created_at": "2026-09-04T13:34:30Z",
       "updated_at": "2026-09-04T13:34:31Z",
       "browser_download_url": "https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1-library.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 26604900,
       "digest": "sha256:b6be77c60765a8456335de991eeaf6ffec55256984e4a9ecc6a97c37bbfe85bf",
-      "download_count": 547,
+      "download_count": 551,
       "created_at": "2026-09-04T13:34:31Z",
       "updated_at": "2026-09-04T13:34:32Z",
       "browser_download_url": "https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1.tar.xz"
