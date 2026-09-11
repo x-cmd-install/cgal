@@ -48,7 +48,7 @@ x install cgal
 
 ## 流行度
 
-- **Star**: 6,036 · **Fork**: 1,590 · **开放 issue**: 3,445 · **贡献者**: 205
+- **Star**: 6,037 · **Fork**: 1,590 · **开放 issue**: 3,445 · **贡献者**: 205
 
 ## 累计统计
 
@@ -84,7 +84,7 @@ x install cgal
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/cgal) 上共有 **182** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**107** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/cgal) 上共有 **183** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**106** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -110,4 +110,4 @@ cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T02:42:01Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T20:46:57Z._

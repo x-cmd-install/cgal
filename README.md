@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,036 · **Forks**: 1,590 · **Open issues**: 3,445 · **Contributors**: 205
+- **Stars**: 6,037 · **Forks**: 1,590 · **Open issues**: 3,445 · **Contributors**: 205
 
 ## Totals (cumulative)
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **182** distros on [repology.org](https://repology.org/project/cgal). **19** are ✅ on the latest upstream release, **107** are ⚠️ on an older version.
+Reported by **183** distros on [repology.org](https://repology.org/project/cgal). **21** are ✅ on the latest upstream release, **106** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -110,4 +110,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T02:42:00Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:46:56Z._
