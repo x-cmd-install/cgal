@@ -1,9 +1,63 @@
-- repo: conancenter
+- repo: raspbian_testing
+  subrepo: main
   srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: "6.2"
+  origversion: 6.2-2
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: openbsd
+  srcname: math/cgal
+  binname: cgal
+  visiblename: math/cgal
+  version: 6.1.1
+  origversion: 6.1.1v0
+  status: outdated
+  summary: Computational Geometry Algorithms Library
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - math
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt5-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 5.5.1
+  origversion: 5.5.1-2
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: raspbian_stable
+  subrepo: main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
   visiblename: cgal
   version: 6.0.1
-  origversion: null
-  status: legacy
+  origversion: 6.0.1-1
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
 - repo: conancenter
   srcname: cgal
   visiblename: cgal
@@ -22,324 +76,211 @@
   version: "6.1"
   origversion: null
   status: legacy
+- repo: alpine_3_18
+  subrepo: community
+  srcname: cgal
+  binname: cgal
+  visiblename: cgal
+  version: 5.5.2
+  origversion: 5.5.2-r0
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_18
+  subrepo: community
+  srcname: cgal
+  binname: cgal-dev
+  visiblename: cgal-dev
+  version: 5.5.2
+  origversion: 5.5.2-r0
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (development files)
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_18
+  subrepo: community
+  srcname: cgal
+  binname: cgal-doc
+  visiblename: cgal-doc
+  version: 5.5.2
+  origversion: 5.5.2-r0
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_19
+  subrepo: community
+  srcname: cgal
+  binname: cgal
+  visiblename: cgal
+  version: "5.6"
+  origversion: 5.6-r0
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_19
+  subrepo: community
+  srcname: cgal
+  binname: cgal-dev
+  visiblename: cgal-dev
+  version: "5.6"
+  origversion: 5.6-r0
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (development files)
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
 - repo: conancenter
   srcname: cgal
   visiblename: cgal
   version: 6.1.1
   origversion: null
   status: legacy
+- repo: alpine_3_19
+  subrepo: community
+  srcname: cgal
+  binname: cgal-doc
+  visiblename: cgal-doc
+  version: "5.6"
+  origversion: 5.6-r0
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_20
+  subrepo: community
+  srcname: cgal
+  binname: cgal
+  visiblename: cgal
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_20
+  subrepo: community
+  srcname: cgal
+  binname: cgal-dev
+  visiblename: cgal-dev
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (development files)
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_20
+  subrepo: community
+  srcname: cgal
+  binname: cgal-doc
+  visiblename: cgal-doc
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
+  maintainers:
+    - marian.buschsieweke@ovgu.de
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_21
+  subrepo: community
+  srcname: cgal
+  binname: cgal
+  visiblename: cgal
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library
+  maintainers:
+    - marian.buschsieweke@posteo.net
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_21
+  subrepo: community
+  srcname: cgal
+  binname: cgal-dev
+  visiblename: cgal-dev
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (development files)
+  maintainers:
+    - marian.buschsieweke@posteo.net
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_21
+  subrepo: community
+  srcname: cgal
+  binname: cgal-doc
+  visiblename: cgal-doc
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
+  maintainers:
+    - marian.buschsieweke@posteo.net
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_22
+  subrepo: community
+  srcname: cgal
+  binname: cgal
+  visiblename: cgal
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library
+  maintainers:
+    - marian.buschsieweke@posteo.net
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_22
+  subrepo: community
+  srcname: cgal
+  binname: cgal-dev
+  visiblename: cgal-dev
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (development files)
+  maintainers:
+    - marian.buschsieweke@posteo.net
+  licenses:
+    - GPL-3.0-or-later custom
+- repo: alpine_3_22
+  subrepo: community
+  srcname: cgal
+  binname: cgal-doc
+  visiblename: cgal-doc
+  version: "5.6"
+  origversion: 5.6-r1
+  status: outdated
+  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
+  maintainers:
+    - marian.buschsieweke@posteo.net
+  licenses:
+    - GPL-3.0-or-later custom
 - repo: conancenter
   srcname: cgal
   visiblename: cgal
   version: "6.2"
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: cgal
-  visiblename: cgal
-  version: 6.2.1
-  origversion: null
-  status: newest
-- repo: deepin_25
-  subrepo: community
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.0.1
-  origversion: 6.0.1-1
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt5-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: "5.2"
-  origversion: 5.2-3
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.2.1
-  origversion: 6.2.1-1
-  status: newest
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: parrot
-  subrepo: parrot/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.0.1
-  origversion: 6.0.1-1
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.0.1
-  origversion: 6.0.1-1
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: pclinuxos
-  srcname: cgal
-  visiblename: cgal
-  version: "6.1"
-  origversion: 6.1-1pclos2026
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  categories:
-    - System/Libraries
-- repo: conancenter
-  srcname: cgal
-  visiblename: cgal
-  version: 5.6.2
-  origversion: null
-  status: legacy
-- repo: alpine_3_18
-  subrepo: community
-  srcname: cgal
-  binname: cgal
-  visiblename: cgal
-  version: 5.5.2
-  origversion: 5.5.2-r0
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_18
-  subrepo: community
-  srcname: cgal
-  binname: cgal-dev
-  visiblename: cgal-dev
-  version: 5.5.2
-  origversion: 5.5.2-r0
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (development files)
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_18
-  subrepo: community
-  srcname: cgal
-  binname: cgal-doc
-  visiblename: cgal-doc
-  version: 5.5.2
-  origversion: 5.5.2-r0
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_19
-  subrepo: community
-  srcname: cgal
-  binname: cgal
-  visiblename: cgal
-  version: "5.6"
-  origversion: 5.6-r0
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_19
-  subrepo: community
-  srcname: cgal
-  binname: cgal-dev
-  visiblename: cgal-dev
-  version: "5.6"
-  origversion: 5.6-r0
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (development files)
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_19
-  subrepo: community
-  srcname: cgal
-  binname: cgal-doc
-  visiblename: cgal-doc
-  version: "5.6"
-  origversion: 5.6-r0
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_20
-  subrepo: community
-  srcname: cgal
-  binname: cgal
-  visiblename: cgal
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_20
-  subrepo: community
-  srcname: cgal
-  binname: cgal-dev
-  visiblename: cgal-dev
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (development files)
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_20
-  subrepo: community
-  srcname: cgal
-  binname: cgal-doc
-  visiblename: cgal-doc
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
-  maintainers:
-    - marian.buschsieweke@ovgu.de
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_21
-  subrepo: community
-  srcname: cgal
-  binname: cgal
-  visiblename: cgal
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library
-  maintainers:
-    - marian.buschsieweke@posteo.net
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_21
-  subrepo: community
-  srcname: cgal
-  binname: cgal-dev
-  visiblename: cgal-dev
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (development files)
-  maintainers:
-    - marian.buschsieweke@posteo.net
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_21
-  subrepo: community
-  srcname: cgal
-  binname: cgal-doc
-  visiblename: cgal-doc
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
-  maintainers:
-    - marian.buschsieweke@posteo.net
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_22
-  subrepo: community
-  srcname: cgal
-  binname: cgal
-  visiblename: cgal
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library
-  maintainers:
-    - marian.buschsieweke@posteo.net
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_22
-  subrepo: community
-  srcname: cgal
-  binname: cgal-dev
-  visiblename: cgal-dev
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (development files)
-  maintainers:
-    - marian.buschsieweke@posteo.net
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: alpine_3_22
-  subrepo: community
-  srcname: cgal
-  binname: cgal-doc
-  visiblename: cgal-doc
-  version: "5.6"
-  origversion: 5.6-r1
-  status: outdated
-  summary: Efficient and reliable geometric algorithms as C++ library (documentation)
-  maintainers:
-    - marian.buschsieweke@posteo.net
-  licenses:
-    - GPL-3.0-or-later custom
-- repo: conancenter
-  srcname: cgal
-  visiblename: cgal
-  version: 5.6.3
-  origversion: null
-  status: legacy
-- repo: conancenter
-  srcname: cgal
-  visiblename: cgal
-  version: "6.0"
   origversion: null
   status: legacy
 - repo: alpine_3_23
@@ -475,6 +416,24 @@
     - LGPLv3+ and GPLv3+ and Boost
   categories:
     - Sciences/Mathematics
+- repo: conancenter
+  srcname: cgal
+  visiblename: cgal
+  version: 6.2.1
+  origversion: null
+  status: newest
+- repo: nix_stable_25_05
+  srcname: cgal
+  visiblename: cgal
+  version: 5.6.2
+  origversion: null
+  status: outdated
+  summary: Computational Geometry Algorithms Library
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-3.0-or-later
+    - LGPL-3.0-or-later
 - repo: altsisyphus
   srcname: cgal
   binnames:
@@ -571,22 +530,6 @@
   version: 5.5.1
   origversion: null
   status: legacy
-- repo: deepin_unstable
-  subrepo: main
-  srcname: cgal
-  binnames:
-    - libcgal13
-    - libcgal-qt5-13
-    - libcgal-dev
-    - libcgal-qt5-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 4.13.1
-  origversion: 4.13.1-1+security
-  status: outdated
-  maintainers:
-    - reichel@debian.org
 - repo: conancenter
   srcname: cgal
   visiblename: cgal
@@ -615,6 +558,30 @@
   srcname: cgal
   visiblename: cgal
   version: 5.6.1
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: cgal
+  visiblename: cgal
+  version: 5.6.2
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: cgal
+  visiblename: cgal
+  version: 5.6.3
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: cgal
+  visiblename: cgal
+  version: "6.0"
+  origversion: null
+  status: legacy
+- repo: conancenter
+  srcname: cgal
+  visiblename: cgal
+  version: 6.0.1
   origversion: null
   status: legacy
 - repo: debian_11
@@ -683,6 +650,70 @@
     - libs
 - repo: debian_unstable
   subrepo: sid/main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 6.2.1
+  origversion: 6.2.1-1
+  status: newest
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: deepin_unstable
+  subrepo: main
+  srcname: cgal
+  binnames:
+    - libcgal13
+    - libcgal-qt5-13
+    - libcgal-dev
+    - libcgal-qt5-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 4.13.1
+  origversion: 4.13.1-1+security
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 6.0.1
+  origversion: 6.0.1-1
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt5-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: "5.2"
+  origversion: 5.2-3
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: cgal
   binnames:
     - libcgal-dev
@@ -766,6 +797,18 @@
     - LGPLv3+ and GPLv3+ and Boost
   categories:
     - Unspecified
+- repo: nix_stable_24_11
+  srcname: cgal
+  visiblename: cgal
+  version: 5.6.2
+  origversion: null
+  status: outdated
+  summary: Computational Geometry Algorithms Library
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-3.0-or-later
+    - LGPL-3.0-or-later
 - repo: fedora_39
   subrepo: updates
   srcname: CGAL
@@ -879,22 +922,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: CGAL
-  binnames:
-    - CGAL-devel
-    - CGAL-qt6-devel
-    - CGAL-demos-source
-  visiblename: CGAL
-  version: 6.0.3
-  origversion: 6.0.3-1.fc43
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  licenses:
-    - LGPL-3.0-or-later AND GPL-3.0-or-later AND BSL-1.0
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: CGAL
   binnames:
@@ -905,6 +932,22 @@
   version: 6.0.2
   origversion: 6.0.2-1.fc43
   status: legacy
+  summary: Computational Geometry Algorithms Library
+  licenses:
+    - LGPL-3.0-or-later AND GPL-3.0-or-later AND BSL-1.0
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: CGAL
+  binnames:
+    - CGAL-devel
+    - CGAL-qt6-devel
+    - CGAL-demos-source
+  visiblename: CGAL
+  version: 6.0.3
+  origversion: 6.0.3-1.fc43
+  status: outdated
   summary: Computational Geometry Algorithms Library
   licenses:
     - LGPL-3.0-or-later AND GPL-3.0-or-later AND BSL-1.0
@@ -1101,6 +1144,18 @@
     - reichel@debian.org
   categories:
     - libs
+- repo: nix_stable_24_11
+  srcname: cgal_4
+  visiblename: cgal
+  version: 4.14.3
+  origversion: null
+  status: legacy
+  summary: Computational Geometry Algorithms Library
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-3.0-or-later
+    - LGPL-3.0-or-later
 - repo: liguros_stable
   srcname: sci-mathematics/cgal
   visiblename: sci-mathematics/cgal
@@ -1414,42 +1469,6 @@
   licenses:
     - GPL-3.0-or-later
     - LGPL-3.0-or-later
-- repo: nix_stable_24_11
-  srcname: cgal
-  visiblename: cgal
-  version: 5.6.2
-  origversion: null
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-3.0-or-later
-    - LGPL-3.0-or-later
-- repo: nix_stable_24_11
-  srcname: cgal_4
-  visiblename: cgal
-  version: 4.14.3
-  origversion: null
-  status: legacy
-  summary: Computational Geometry Algorithms Library
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-3.0-or-later
-    - LGPL-3.0-or-later
-- repo: nix_stable_25_05
-  srcname: cgal
-  visiblename: cgal
-  version: 5.6.2
-  origversion: null
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-3.0-or-later
-    - LGPL-3.0-or-later
 - repo: nix_stable_25_11
   srcname: cgal
   visiblename: cgal
@@ -1527,18 +1546,6 @@
   licenses:
     - GPL-3.0-or-later
     - LGPL-3.0-or-later
-- repo: openbsd
-  srcname: math/cgal
-  binname: cgal
-  visiblename: math/cgal
-  version: 6.1.1
-  origversion: 6.1.1v0
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - math
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: cgal
@@ -1707,9 +1714,26 @@
     - cgal-demo-examples-devel
     - cgal-doc
   visiblename: cgal
-  version: "6.1"
-  origversion: 6.1-97.10
-  status: outdated
+  version: 6.2.1
+  origversion: 6.2.1-98.1
+  status: newest
+  summary: Computational Geometry Algorithms Library
+  licenses:
+    - GPL-3.0-or-later AND LGPL-3.0-or-later
+  categories:
+    - Productivity/Graphics/CAD
+- repo: opensuse_graphics_tumbleweed
+  srcname: cgal
+  binnames:
+    - cgal-debuginfo
+    - cgal-debugsource
+    - cgal-devel
+    - cgal-demo-examples-devel
+    - cgal-doc
+  visiblename: cgal
+  version: 6.2.1
+  origversion: 6.2.1-99.1
+  status: newest
   summary: Computational Geometry Algorithms Library
   licenses:
     - GPL-3.0-or-later AND LGPL-3.0-or-later
@@ -1743,6 +1767,47 @@
     - reichel@debian.org
   categories:
     - libs
+- repo: parrot
+  subrepo: parrot/main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 6.0.1
+  origversion: 6.0.1-1
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 6.0.1
+  origversion: 6.0.1-1
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: pclinuxos
+  srcname: cgal
+  visiblename: cgal
+  version: "6.1"
+  origversion: 6.1-1pclos2026
+  status: outdated
+  summary: Computational Geometry Algorithms Library
+  categories:
+    - System/Libraries
 - repo: pkgsrc_2026_1
   srcname: math/cgal
   binname: cgal
@@ -1835,54 +1900,6 @@
     - reichel@debian.org
   categories:
     - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt5-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 5.5.1
-  origversion: 5.5.1-2
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: raspbian_stable
-  subrepo: main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.0.1
-  origversion: 6.0.1-1
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: "6.2"
-  origversion: 6.2-2
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
 - repo: ravenports
   srcname: cgal
   binname: cgal
