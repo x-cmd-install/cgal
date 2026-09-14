@@ -26,13 +26,13 @@ x install cgal
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.1 / 10**
+总评分: **4.2 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 9/20 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -48,7 +48,7 @@ x install cgal
 
 ## 流行度
 
-- **Star**: 6,037 · **Fork**: 1,590 · **开放 issue**: 3,445 · **贡献者**: 205
+- **Star**: 6,041 · **Fork**: 1,591 · **开放 issue**: 3,445 · **贡献者**: 205
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install cgal
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 13 | 20 | 6 | 8 | 80 |
-| last60d | 2026-07-15 | 2 | 36 | 24 | 9 | 12 | 214 |
-| 90d | 2026-06-15 | 2 | 56 | 29 | 13 | 14 | 347 |
-| last180d | 2026-03-17 | 5 | 135 | 51 | 34 | 21 | 830 |
-| 360d | 2025-09-18 | 8 | 296 | 83 | 69 | 50 | 2567 |
-| last720d | 2024-09-23 | 16 | 590 | 110 | 208 | 103 | 5817 |
+| 30d | 2026-08-15 | 2 | 13 | 20 | 6 | 8 | 80 |
+| last60d | 2026-07-16 | 2 | 36 | 24 | 9 | 12 | 214 |
+| 90d | 2026-06-16 | 2 | 56 | 29 | 13 | 14 | 347 |
+| last180d | 2026-03-18 | 5 | 134 | 50 | 34 | 21 | 830 |
+| 360d | 2025-09-19 | 8 | 293 | 83 | 69 | 50 | 2567 |
+| last720d | 2024-09-24 | 16 | 588 | 110 | 208 | 103 | 5810 |
 
 ## Release 资产
 
@@ -82,25 +82,6 @@ x install cgal
 | [sha256sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha256sum.txt) | 1003 B | `other` |
 | [sha512sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha512sum.txt) | 1.7 KiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/cgal) 上共有 **183** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**106** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `6.2.1` | ✅ latest |
-| Debian 14 | `6.2` | ⚠️ outdated |
-| Debian 13 | `6.0.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `6.1.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.6` | ⚠️ outdated |
-| Arch | `6.2.1` | ✅ latest |
-| Homebrew | `6.2.1` | ✅ latest |
-| Fedora rawhide | `6.2.1` | ✅ latest |
-| Nix unstable | `6.2` | ⚠️ outdated |
-| Void | `4.14` | ⚠️ outdated |
-| Alpine edge | `6.0.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `6.1` | ⚠️ outdated |
-
 ## 改进这些数据
 
 cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `cgal` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -110,4 +91,4 @@ cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T02:49:36Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T03:04:54Z._
