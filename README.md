@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,046 · **Forks**: 1,593 · **Open issues**: 3,451 · **Contributors**: 205
+- **Stars**: 6,049 · **Forks**: 1,593 · **Open issues**: 3,452 · **Contributors**: 205
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5223 · **Open PRs**: 171 · **Closed issues**: 2940 · **Open issues**: 511 · **Commits**: 117181
+- **Releases**: 99 · **Merged PRs**: 5223 · **Open PRs**: 172 · **Closed issues**: 2940 · **Open issues**: 512 · **Commits**: 117181
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 2 | 21 | 16 | 7 | 10 | 142 |
-| last60d | 2026-07-19 | 2 | 42 | 20 | 10 | 14 | 276 |
-| 90d | 2026-06-19 | 2 | 62 | 24 | 12 | 16 | 409 |
-| last180d | 2026-03-21 | 5 | 135 | 46 | 33 | 23 | 892 |
-| 360d | 2025-09-22 | 8 | 300 | 79 | 70 | 52 | 2629 |
-| last720d | 2024-09-27 | 16 | 590 | 105 | 208 | 105 | 5831 |
+| 30d | 2026-08-19 | 2 | 19 | 17 | 6 | 11 | 142 |
+| last60d | 2026-07-20 | 2 | 41 | 21 | 10 | 15 | 276 |
+| 90d | 2026-06-20 | 2 | 62 | 25 | 12 | 17 | 409 |
+| last180d | 2026-03-22 | 5 | 134 | 47 | 33 | 24 | 892 |
+| 360d | 2025-09-23 | 8 | 300 | 80 | 69 | 53 | 2629 |
+| last720d | 2024-09-28 | 15 | 589 | 106 | 208 | 106 | 5816 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T03:06:49Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T02:54:25Z._
