@@ -4,7 +4,7 @@
 
 The public CGAL repository, see the README below
 
-![cgal](https://repo.x-cmd.io/cgal.svg)
+[![x-cmd/install — cgal Code Quality Monitoring Repo Card](https://repo.x-cmd.io/cgal.svg)](https://x-cmd.com/install/cgal)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,049 · **Forks**: 1,593 · **Open issues**: 3,452 · **Contributors**: 205
+- **Stars**: 6,051 · **Forks**: 1,593 · **Open issues**: 3,452 · **Contributors**: 205
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5223 · **Open PRs**: 172 · **Closed issues**: 2940 · **Open issues**: 512 · **Commits**: 117181
+- **Releases**: 99 · **Merged PRs**: 5223 · **Open PRs**: 174 · **Closed issues**: 2940 · **Open issues**: 512 · **Commits**: 117181
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 2 | 19 | 17 | 6 | 11 | 142 |
-| last60d | 2026-07-20 | 2 | 41 | 21 | 10 | 15 | 276 |
-| 90d | 2026-06-20 | 2 | 62 | 25 | 12 | 17 | 409 |
-| last180d | 2026-03-22 | 5 | 134 | 47 | 33 | 24 | 892 |
-| 360d | 2025-09-23 | 8 | 300 | 80 | 69 | 53 | 2629 |
-| last720d | 2024-09-28 | 15 | 589 | 106 | 208 | 106 | 5816 |
+| 30d | 2026-08-21 | 2 | 18 | 18 | 5 | 11 | 90 |
+| last60d | 2026-07-22 | 2 | 39 | 23 | 10 | 15 | 241 |
+| 90d | 2026-06-22 | 2 | 61 | 27 | 12 | 17 | 391 |
+| last180d | 2026-03-24 | 5 | 133 | 48 | 33 | 24 | 833 |
+| 360d | 2025-09-25 | 8 | 298 | 82 | 66 | 53 | 2573 |
+| last720d | 2024-09-30 | 15 | 589 | 108 | 207 | 106 | 5815 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T02:54:25Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T03:03:58Z._
