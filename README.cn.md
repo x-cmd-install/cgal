@@ -26,13 +26,13 @@ x install cgal
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.2 / 10**
+总评分: **4.1 / 10**
 
 评分最低的几项:
 
+- **Code-Review** (4/10) — Found 4/10 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -58,12 +58,12 @@ x install cgal
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 2 | 18 | 18 | 5 | 11 | 90 |
-| last60d | 2026-07-22 | 2 | 39 | 23 | 10 | 15 | 241 |
-| 90d | 2026-06-22 | 2 | 61 | 27 | 12 | 17 | 391 |
-| last180d | 2026-03-24 | 5 | 133 | 48 | 33 | 24 | 833 |
-| 360d | 2025-09-25 | 8 | 298 | 82 | 66 | 53 | 2573 |
-| last720d | 2024-09-30 | 15 | 589 | 108 | 207 | 106 | 5815 |
+| 30d | 2026-08-22 | 2 | 18 | 17 | 4 | 11 | 90 |
+| last60d | 2026-07-23 | 2 | 39 | 23 | 9 | 15 | 241 |
+| 90d | 2026-06-23 | 2 | 58 | 27 | 12 | 17 | 391 |
+| last180d | 2026-03-25 | 5 | 132 | 48 | 33 | 23 | 833 |
+| 360d | 2025-09-26 | 8 | 297 | 82 | 65 | 53 | 2573 |
+| last720d | 2024-10-01 | 15 | 587 | 108 | 207 | 104 | 5797 |
 
 ## Release 资产
 
@@ -91,4 +91,4 @@ cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260920.yml` · 2026-09-20T03:03:59Z._
+_数据快照: `data/card/260921.yml` · 2026-09-21T03:01:29Z._
