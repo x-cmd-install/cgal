@@ -4,7 +4,7 @@
 
 The public CGAL repository, see the README below
 
-[![x-cmd/install — cgal Code Quality Monitoring Repo Card](https://repo.x-cmd.io/cgal.svg)](https://x-cmd.com/install/cgal)
+[![x-cmd/install — cgal Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/cgal.svg)](https://x-cmd.com/install/cgal)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,052 · **Forks**: 1,593 · **Open issues**: 3,453 · **Contributors**: 205
+- **Stars**: 6,054 · **Forks**: 1,595 · **Open issues**: 3,455 · **Contributors**: 205
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5225 · **Open PRs**: 172 · **Closed issues**: 2940 · **Open issues**: 513 · **Commits**: 117201
+- **Releases**: 99 · **Merged PRs**: 5225 · **Open PRs**: 176 · **Closed issues**: 2940 · **Open issues**: 515 · **Commits**: 117201
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 2 | 19 | 16 | 4 | 12 | 99 |
-| last60d | 2026-07-24 | 2 | 40 | 22 | 9 | 16 | 250 |
-| 90d | 2026-06-24 | 2 | 57 | 26 | 12 | 18 | 400 |
-| last180d | 2026-03-26 | 5 | 133 | 47 | 33 | 24 | 842 |
-| 360d | 2025-09-27 | 8 | 298 | 81 | 65 | 54 | 2582 |
-| last720d | 2024-10-02 | 15 | 588 | 107 | 207 | 105 | 5811 |
+| 30d | 2026-08-24 | 2 | 19 | 20 | 4 | 14 | 99 |
+| last60d | 2026-07-25 | 2 | 40 | 26 | 9 | 18 | 250 |
+| 90d | 2026-06-25 | 2 | 57 | 30 | 12 | 20 | 400 |
+| last180d | 2026-03-27 | 5 | 133 | 51 | 33 | 26 | 842 |
+| 360d | 2025-09-28 | 8 | 298 | 85 | 65 | 56 | 2582 |
+| last720d | 2024-10-03 | 15 | 585 | 111 | 206 | 107 | 5806 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T03:01:55Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T03:02:23Z._

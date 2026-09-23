@@ -4,7 +4,7 @@
 
 The public CGAL repository, see the README below
 
-[![x-cmd/install — cgal Code Quality Monitoring Repo Card](https://repo.x-cmd.io/cgal.svg?lang=zh)](https://x-cmd.com/install/cgal)
+[![x-cmd/install — cgal Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/cgal.svg?lang=zh)](https://x-cmd.com/install/cgal)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install cgal
 
 ## 流行度
 
-- **Star**: 6,052 · **Fork**: 1,593 · **开放 issue**: 3,453 · **贡献者**: 205
+- **Star**: 6,054 · **Fork**: 1,595 · **开放 issue**: 3,455 · **贡献者**: 205
 
 ## 累计统计
 
-- **发布数**: 99 · **已合并 PR**: 5225 · **开放 PR**: 172 · **已关闭 issue**: 2940 · **开放 issue**: 513 · **提交数**: 117201
+- **发布数**: 99 · **已合并 PR**: 5225 · **开放 PR**: 176 · **已关闭 issue**: 2940 · **开放 issue**: 515 · **提交数**: 117201
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 2 | 19 | 16 | 4 | 12 | 99 |
-| last60d | 2026-07-24 | 2 | 40 | 22 | 9 | 16 | 250 |
-| 90d | 2026-06-24 | 2 | 57 | 26 | 12 | 18 | 400 |
-| last180d | 2026-03-26 | 5 | 133 | 47 | 33 | 24 | 842 |
-| 360d | 2025-09-27 | 8 | 298 | 81 | 65 | 54 | 2582 |
-| last720d | 2024-10-02 | 15 | 588 | 107 | 207 | 105 | 5811 |
+| 30d | 2026-08-24 | 2 | 19 | 20 | 4 | 14 | 99 |
+| last60d | 2026-07-25 | 2 | 40 | 26 | 9 | 18 | 250 |
+| 90d | 2026-06-25 | 2 | 57 | 30 | 12 | 20 | 400 |
+| last180d | 2026-03-27 | 5 | 133 | 51 | 33 | 26 | 842 |
+| 360d | 2025-09-28 | 8 | 298 | 85 | 65 | 56 | 2582 |
+| last720d | 2024-10-03 | 15 | 585 | 111 | 206 | 107 | 5806 |
 
 ## Release 资产
 
@@ -91,4 +91,4 @@ cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T03:01:56Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T03:02:24Z._
