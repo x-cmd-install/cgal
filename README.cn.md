@@ -30,7 +30,7 @@ x install cgal
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 4/10 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 6/13 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,7 +48,7 @@ x install cgal
 
 ## 流行度
 
-- **Star**: 6,056 · **Fork**: 1,593 · **开放 issue**: 3,456 · **贡献者**: 205
+- **Star**: 6,060 · **Fork**: 1,593 · **开放 issue**: 3,456 · **贡献者**: 205
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install cgal
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 2 | 14 | 23 | 4 | 13 | 84 |
-| last60d | 2026-07-29 | 2 | 38 | 29 | 11 | 15 | 212 |
-| 90d | 2026-06-29 | 2 | 55 | 34 | 14 | 19 | 363 |
-| last180d | 2026-03-31 | 5 | 133 | 55 | 32 | 25 | 813 |
-| 360d | 2025-10-02 | 7 | 296 | 88 | 66 | 54 | 2557 |
-| last720d | 2024-10-07 | 15 | 579 | 114 | 205 | 105 | 5778 |
+| 30d | 2026-08-29 | 2 | 14 | 23 | 4 | 12 | 84 |
+| last60d | 2026-07-30 | 2 | 38 | 28 | 11 | 15 | 212 |
+| 90d | 2026-06-30 | 2 | 53 | 34 | 13 | 19 | 363 |
+| last180d | 2026-04-01 | 5 | 132 | 54 | 32 | 25 | 813 |
+| 360d | 2025-10-03 | 7 | 296 | 88 | 66 | 54 | 2557 |
+| last720d | 2024-10-08 | 15 | 577 | 114 | 205 | 105 | 5774 |
 
 ## Release 资产
 
@@ -91,4 +91,4 @@ cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260927.yml` · 2026-09-27T03:19:39Z._
+_数据快照: `data/card/260928.yml` · 2026-09-28T03:16:53Z._
