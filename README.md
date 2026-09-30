@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5225 · **Open PRs**: 180 · **Closed issues**: 2943 · **Open issues**: 513 · **Commits**: 117201
+- **Releases**: 99 · **Merged PRs**: 5225 · **Open PRs**: 182 · **Closed issues**: 2943 · **Open issues**: 513 · **Commits**: 117201
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 2 | 14 | 24 | 4 | 12 | 84 |
-| last60d | 2026-07-31 | 2 | 35 | 28 | 11 | 15 | 212 |
-| 90d | 2026-07-01 | 2 | 53 | 35 | 13 | 19 | 363 |
-| last180d | 2026-04-02 | 5 | 129 | 55 | 32 | 25 | 813 |
-| 360d | 2025-10-04 | 7 | 296 | 89 | 66 | 54 | 2557 |
-| last720d | 2024-10-09 | 15 | 574 | 115 | 204 | 105 | 5757 |
+| 30d | 2026-08-31 | 2 | 13 | 26 | 4 | 12 | 84 |
+| last60d | 2026-08-01 | 2 | 34 | 30 | 11 | 15 | 212 |
+| 90d | 2026-07-02 | 2 | 53 | 37 | 13 | 19 | 363 |
+| last180d | 2026-04-03 | 5 | 127 | 56 | 32 | 25 | 813 |
+| 360d | 2025-10-05 | 7 | 295 | 91 | 66 | 54 | 2557 |
+| last720d | 2024-10-10 | 15 | 571 | 117 | 203 | 105 | 5733 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T03:54:04Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T03:42:21Z._
