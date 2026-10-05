@@ -26,11 +26,11 @@ Total: **2,118,435** lines of code across **9203** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.1 / 10**
+Overall score: **4.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 6/13 approved changesets -- score normalized to 4
+- **Code-Review** (3/10) — Found 5/14 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,061 · **Forks**: 1,596 · **Open issues**: 3,458 · **Contributors**: 208
+- **Stars**: 6,062 · **Forks**: 1,596 · **Open issues**: 3,458 · **Contributors**: 208
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 2 | 21 | 30 | 4 | 11 | 88 |
-| last60d | 2026-08-05 | 2 | 39 | 36 | 11 | 16 | 338 |
-| 90d | 2026-07-06 | 2 | 65 | 41 | 13 | 19 | 501 |
-| last180d | 2026-04-07 | 5 | 141 | 59 | 32 | 25 | 949 |
-| 360d | 2025-10-09 | 7 | 309 | 93 | 67 | 55 | 2706 |
-| last720d | 2024-10-14 | 15 | 586 | 119 | 204 | 104 | 5909 |
+| 30d | 2026-09-05 | 0 | 21 | 30 | 4 | 11 | 88 |
+| last60d | 2026-08-06 | 2 | 36 | 36 | 11 | 16 | 338 |
+| 90d | 2026-07-07 | 2 | 65 | 41 | 13 | 19 | 501 |
+| last180d | 2026-04-08 | 5 | 141 | 59 | 32 | 25 | 949 |
+| 360d | 2025-10-10 | 7 | 309 | 93 | 67 | 55 | 2706 |
+| last720d | 2024-10-15 | 15 | 583 | 119 | 202 | 104 | 5889 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T03:59:46Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T03:44:22Z._
