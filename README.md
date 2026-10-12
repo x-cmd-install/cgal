@@ -26,13 +26,13 @@ Total: **2,128,532** lines of code across **9251** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.5 / 10**
+Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 5/14 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,072 · **Forks**: 1,596 · **Open issues**: 3,462 · **Contributors**: 212
+- **Stars**: 6,073 · **Forks**: 1,596 · **Open issues**: 3,462 · **Contributors**: 212
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 29 | 20 | 5 | 9 | 166 |
-| last60d | 2026-08-12 | 2 | 56 | 26 | 16 | 12 | 483 |
-| 90d | 2026-07-13 | 2 | 82 | 28 | 19 | 16 | 724 |
-| last180d | 2026-04-14 | 5 | 159 | 47 | 36 | 23 | 1136 |
-| 360d | 2025-10-16 | 7 | 329 | 80 | 75 | 50 | 2879 |
-| last720d | 2024-10-21 | 15 | 599 | 107 | 203 | 100 | 6106 |
+| 30d | 2026-09-12 | 0 | 29 | 20 | 5 | 9 | 166 |
+| last60d | 2026-08-13 | 2 | 56 | 26 | 16 | 12 | 483 |
+| 90d | 2026-07-14 | 2 | 82 | 28 | 19 | 16 | 724 |
+| last180d | 2026-04-15 | 5 | 157 | 46 | 36 | 23 | 1136 |
+| 360d | 2025-10-17 | 7 | 329 | 80 | 75 | 49 | 2879 |
+| last720d | 2024-10-22 | 15 | 598 | 107 | 201 | 100 | 6087 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T03:37:02Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T04:01:11Z._
