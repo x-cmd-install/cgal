@@ -14,13 +14,13 @@ x install cgal
 
 ## Code insight
 
-Total: **2,128,610** lines of code across **9252** files in the top 5 languages.
+Total: **2,128,676** lines of code across **9253** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| CHeader | 1,009,540 | 373,739 | 242,042 | 6025 |
+| CHeader | 1,009,538 | 373,741 | 242,042 | 6025 |
 | Json | 362,624 | 0 | 0 | 1 |
-| Cpp | 336,642 | 31,132 | 70,602 | 2948 |
+| Cpp | 336,710 | 31,147 | 70,625 | 2949 |
 | Glsl | 150,926 | 32 | 232 | 71 |
 | Svg | 111,730 | 7,973 | 77 | 207 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v6.1.3` (2026-09-04)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-10-14
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 6,078 · **Forks**: 1,596 · **Open issues**: 3,462 · **Contributors**: 213
+- **Stars**: 6,078 · **Forks**: 1,598 · **Open issues**: 3,463 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5266 · **Open PRs**: 172 · **Closed issues**: 2972 · **Open issues**: 490 · **Commits**: 117719
+- **Releases**: 99 · **Merged PRs**: 5269 · **Open PRs**: 178 · **Closed issues**: 2973 · **Open issues**: 490 · **Commits**: 117734
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 28 | 22 | 6 | 7 | 171 |
-| last60d | 2026-08-15 | 2 | 57 | 28 | 17 | 11 | 488 |
-| 90d | 2026-07-16 | 2 | 82 | 30 | 20 | 15 | 729 |
-| last180d | 2026-04-17 | 5 | 157 | 46 | 38 | 21 | 1142 |
-| 360d | 2025-10-19 | 7 | 330 | 81 | 80 | 44 | 2885 |
-| last720d | 2024-10-24 | 12 | 599 | 107 | 208 | 91 | 6066 |
+| 30d | 2026-09-15 | 0 | 29 | 30 | 5 | 8 | 174 |
+| last60d | 2026-08-16 | 2 | 59 | 36 | 17 | 12 | 491 |
+| 90d | 2026-07-17 | 2 | 82 | 38 | 20 | 16 | 732 |
+| last180d | 2026-04-18 | 5 | 160 | 53 | 39 | 21 | 1146 |
+| 360d | 2025-10-20 | 7 | 332 | 87 | 81 | 44 | 2889 |
+| last720d | 2024-10-25 | 12 | 601 | 113 | 207 | 91 | 6079 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T03:17:37Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T02:57:15Z._
