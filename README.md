@@ -14,7 +14,7 @@ x install cgal
 
 ## Code insight
 
-Total: **2,128,676** lines of code across **9253** files in the top 5 languages.
+Total: **2,128,674** lines of code across **9253** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v6.1.3` (2026-09-04)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-10-15
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 6,078 · **Forks**: 1,598 · **Open issues**: 3,463 · **Contributors**: 213
+- **Stars**: 6,078 · **Forks**: 1,597 · **Open issues**: 3,463 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5269 · **Open PRs**: 178 · **Closed issues**: 2973 · **Open issues**: 490 · **Commits**: 117734
+- **Releases**: 99 · **Merged PRs**: 5269 · **Open PRs**: 182 · **Closed issues**: 2973 · **Open issues**: 490 · **Commits**: 117735
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 29 | 30 | 5 | 8 | 174 |
-| last60d | 2026-08-16 | 2 | 59 | 36 | 17 | 12 | 491 |
-| 90d | 2026-07-17 | 2 | 82 | 38 | 20 | 16 | 732 |
-| last180d | 2026-04-18 | 5 | 160 | 53 | 39 | 21 | 1146 |
-| 360d | 2025-10-20 | 7 | 332 | 87 | 81 | 44 | 2889 |
-| last720d | 2024-10-25 | 12 | 601 | 113 | 207 | 91 | 6079 |
+| 30d | 2026-09-16 | 0 | 28 | 34 | 5 | 7 | 175 |
+| last60d | 2026-08-17 | 2 | 59 | 40 | 17 | 12 | 492 |
+| 90d | 2026-07-18 | 2 | 82 | 42 | 20 | 16 | 733 |
+| last180d | 2026-04-19 | 5 | 160 | 57 | 39 | 21 | 1147 |
+| 360d | 2025-10-21 | 7 | 331 | 91 | 81 | 44 | 2890 |
+| last720d | 2024-10-26 | 12 | 601 | 117 | 206 | 91 | 6077 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T02:57:15Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T02:52:59Z._
