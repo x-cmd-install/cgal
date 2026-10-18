@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v6.1.3` (2026-09-04)
-- **Last commit**: 2026-10-16
+- **Last commit**: 2026-10-17
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 6,080 · **Forks**: 1,598 · **Open issues**: 3,463 · **Contributors**: 214
+- **Stars**: 6,081 · **Forks**: 1,599 · **Open issues**: 3,463 · **Contributors**: 214
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5273 · **Open PRs**: 197 · **Closed issues**: 2974 · **Open issues**: 489 · **Commits**: 117824
+- **Releases**: 99 · **Merged PRs**: 5275 · **Open PRs**: 198 · **Closed issues**: 2974 · **Open issues**: 489 · **Commits**: 117828
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 0 | 30 | 50 | 4 | 7 | 246 |
-| last60d | 2026-08-18 | 2 | 63 | 55 | 17 | 12 | 589 |
-| 90d | 2026-07-19 | 2 | 86 | 57 | 20 | 16 | 830 |
-| last180d | 2026-04-20 | 5 | 164 | 72 | 39 | 21 | 1244 |
-| 360d | 2025-10-22 | 7 | 332 | 106 | 81 | 44 | 2987 |
-| last720d | 2024-10-27 | 12 | 605 | 132 | 206 | 90 | 6166 |
+| 30d | 2026-09-18 | 0 | 31 | 50 | 4 | 7 | 207 |
+| last60d | 2026-08-19 | 2 | 63 | 56 | 16 | 12 | 511 |
+| 90d | 2026-07-20 | 2 | 87 | 58 | 20 | 16 | 794 |
+| last180d | 2026-04-21 | 5 | 164 | 71 | 38 | 20 | 1216 |
+| 360d | 2025-10-23 | 7 | 333 | 107 | 81 | 44 | 2933 |
+| last720d | 2024-10-28 | 12 | 607 | 133 | 205 | 90 | 6170 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T02:44:28Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T02:45:39Z._
