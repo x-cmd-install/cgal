@@ -48,22 +48,22 @@ x install cgal
 
 ## 流行度
 
-- **Star**: 6,085 · **Fork**: 1,609 · **开放 issue**: 3,469 · **贡献者**: 216
+- **Star**: 6,086 · **Fork**: 1,613 · **开放 issue**: 3,472 · **贡献者**: 216
 
 ## 累计统计
 
-- **发布数**: 99 · **已合并 PR**: 5283 · **开放 PR**: 202 · **已关闭 issue**: 2977 · **开放 issue**: 492 · **提交数**: 117898
+- **发布数**: 99 · **已合并 PR**: 5283 · **开放 PR**: 206 · **已关闭 issue**: 2977 · **开放 issue**: 495 · **提交数**: 117898
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 34 | 56 | 2 | 12 | 247 |
-| last60d | 2026-08-23 | 2 | 68 | 61 | 15 | 17 | 551 |
-| 90d | 2026-07-24 | 2 | 92 | 64 | 21 | 20 | 843 |
-| last180d | 2026-04-25 | 5 | 170 | 77 | 39 | 24 | 1266 |
-| 360d | 2025-10-27 | 7 | 339 | 111 | 82 | 48 | 2986 |
-| last720d | 2024-11-01 | 12 | 614 | 137 | 203 | 94 | 6228 |
+| 30d | 2026-09-23 | 0 | 34 | 58 | 2 | 14 | 247 |
+| last60d | 2026-08-24 | 2 | 68 | 65 | 15 | 20 | 551 |
+| 90d | 2026-07-25 | 2 | 92 | 68 | 21 | 23 | 843 |
+| last180d | 2026-04-26 | 5 | 169 | 81 | 39 | 27 | 1266 |
+| 360d | 2025-10-28 | 7 | 339 | 115 | 82 | 51 | 2986 |
+| last720d | 2024-11-02 | 12 | 614 | 141 | 203 | 97 | 6228 |
 
 ## Release 资产
 
@@ -82,6 +82,25 @@ x install cgal
 | [sha256sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha256sum.txt) | 1003 B | `other` |
 | [sha512sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha512sum.txt) | 1.7 KiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/cgal) 上共有 **188** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**96** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `6.2.1` | ✅ latest |
+| Debian 14 | `6.2.1` | ✅ latest |
+| Debian 13 | `6.0.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `6.1.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `5.6` | ⚠️ outdated |
+| Arch | `6.2.1` | ✅ latest |
+| Homebrew | `6.2.1` | ✅ latest |
+| Fedora rawhide | `6.2.1` | ✅ latest |
+| Nix unstable | `6.2.1` | ✅ latest |
+| Void | `6.2.1` | ✅ latest |
+| Alpine edge | `6.0.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.2.1` | ✅ latest |
+
 ## 改进这些数据
 
 cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `cgal` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -91,4 +110,4 @@ cgal 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T03:03:09Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T03:06:31Z._

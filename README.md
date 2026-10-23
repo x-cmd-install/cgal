@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,085 · **Forks**: 1,609 · **Open issues**: 3,469 · **Contributors**: 216
+- **Stars**: 6,086 · **Forks**: 1,613 · **Open issues**: 3,472 · **Contributors**: 216
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5283 · **Open PRs**: 202 · **Closed issues**: 2977 · **Open issues**: 492 · **Commits**: 117898
+- **Releases**: 99 · **Merged PRs**: 5283 · **Open PRs**: 206 · **Closed issues**: 2977 · **Open issues**: 495 · **Commits**: 117898
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 34 | 56 | 2 | 12 | 247 |
-| last60d | 2026-08-23 | 2 | 68 | 61 | 15 | 17 | 551 |
-| 90d | 2026-07-24 | 2 | 92 | 64 | 21 | 20 | 843 |
-| last180d | 2026-04-25 | 5 | 170 | 77 | 39 | 24 | 1266 |
-| 360d | 2025-10-27 | 7 | 339 | 111 | 82 | 48 | 2986 |
-| last720d | 2024-11-01 | 12 | 614 | 137 | 203 | 94 | 6228 |
+| 30d | 2026-09-23 | 0 | 34 | 58 | 2 | 14 | 247 |
+| last60d | 2026-08-24 | 2 | 68 | 65 | 15 | 20 | 551 |
+| 90d | 2026-07-25 | 2 | 92 | 68 | 21 | 23 | 843 |
+| last180d | 2026-04-26 | 5 | 169 | 81 | 39 | 27 | 1266 |
+| 360d | 2025-10-28 | 7 | 339 | 115 | 82 | 51 | 2986 |
+| last720d | 2024-11-02 | 12 | 614 | 141 | 203 | 97 | 6228 |
 
 ## Release assets
 
@@ -82,6 +82,25 @@ Lowest-scoring checks:
 | [sha256sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha256sum.txt) | 1003 B | `other` |
 | [sha512sum.txt](https://github.com/CGAL/cgal/releases/download/v6.2.1/sha512sum.txt) | 1.7 KiB | `other` |
 
+## Distribution status
+
+Reported by **188** distros on [repology.org](https://repology.org/project/cgal). **28** are ✅ on the latest upstream release, **96** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `6.2.1` | ✅ latest |
+| Debian 14 | `6.2.1` | ✅ latest |
+| Debian 13 | `6.0.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `6.1.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `5.6` | ⚠️ outdated |
+| Arch | `6.2.1` | ✅ latest |
+| Homebrew | `6.2.1` | ✅ latest |
+| Fedora rawhide | `6.2.1` | ✅ latest |
+| Nix unstable | `6.2.1` | ✅ latest |
+| Void | `6.2.1` | ✅ latest |
+| Alpine edge | `6.0.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.2.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `cgal` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -91,4 +110,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T03:03:07Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T03:06:30Z._
