@@ -26,7 +26,7 @@ Total: **2,133,724** lines of code across **9261** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.7 / 10**
+Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,087 · **Forks**: 1,611 · **Open issues**: 3,474 · **Contributors**: 217
+- **Stars**: 6,088 · **Forks**: 1,611 · **Open issues**: 3,474 · **Contributors**: 217
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 36 | 58 | 3 | 15 | 198 |
-| last60d | 2026-08-26 | 2 | 68 | 65 | 14 | 21 | 500 |
-| 90d | 2026-07-27 | 2 | 93 | 68 | 21 | 24 | 753 |
-| last180d | 2026-04-28 | 5 | 166 | 80 | 39 | 28 | 1255 |
-| 360d | 2025-10-30 | 7 | 339 | 115 | 82 | 52 | 2926 |
-| last720d | 2024-11-04 | 12 | 614 | 141 | 204 | 98 | 6230 |
+| 30d | 2026-09-26 | 0 | 35 | 58 | 3 | 15 | 198 |
+| last60d | 2026-08-27 | 2 | 64 | 65 | 14 | 21 | 500 |
+| 90d | 2026-07-28 | 2 | 92 | 68 | 21 | 24 | 753 |
+| last180d | 2026-04-29 | 5 | 165 | 79 | 39 | 28 | 1255 |
+| 360d | 2025-10-31 | 7 | 337 | 115 | 82 | 52 | 2926 |
+| last720d | 2024-11-05 | 12 | 613 | 141 | 204 | 98 | 6225 |
 
 ## Release assets
 
@@ -110,4 +110,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T02:55:46Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T02:54:16Z._
