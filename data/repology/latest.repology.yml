@@ -1,3 +1,25 @@
+- repo: raspbian_testing
+  subrepo: main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 6.2.1
+  origversion: 6.2.1-1
+  status: newest
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: conancenter
+  srcname: cgal
+  visiblename: cgal
+  version: 5.5.2
+  origversion: null
+  status: legacy
 - repo: alpine_3_18
   subrepo: community
   srcname: cgal
@@ -271,6 +293,22 @@
     - marian.buschsieweke@posteo.net
   licenses:
     - GPL-3.0-or-later custom
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt5-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: "5.2"
+  origversion: 5.2-3
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
 - repo: alpine_edge
   subrepo: community
   srcname: cgal
@@ -366,6 +404,22 @@
   licenses:
     - GPL-3.0-or-later
     - LGPL-3.0-or-later
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: cgal
+  binnames:
+    - libcgal-demo
+    - libcgal-dev
+    - libcgal-ipelets
+    - libcgal-qt5-dev
+  visiblename: cgal
+  version: "5.2"
+  origversion: 5.2-3
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - devel
 - repo: aur
   srcname: mingw-w64-cgal
   binname: mingw-w64-cgal
@@ -422,12 +476,22 @@
   version: 5.5.1
   origversion: null
   status: legacy
-- repo: conancenter
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
   visiblename: cgal
-  version: 5.5.2
-  origversion: null
-  status: legacy
+  version: 6.2.1
+  origversion: 6.2.1-1
+  status: newest
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
 - repo: conancenter
   srcname: cgal
   visiblename: cgal
@@ -544,14 +608,6 @@
     - reichel@debian.org
   categories:
     - libs
-- repo: haikuports_master
-  srcname: sci-mathematics/cgal
-  visiblename: sci-mathematics/cgal
-  version: "4.13"
-  origversion: null
-  status: outdated
-  categories:
-    - sci-mathematics
 - repo: debian_13
   subrepo: trixie/main
   srcname: cgal
@@ -632,38 +688,6 @@
     - reichel@debian.org
   categories:
     - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt5-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: "5.2"
-  origversion: 5.2-3
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.2.1
-  origversion: 6.2.1-1
-  status: newest
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
 - repo: epel_8
   srcname: CGAL
   visiblename: CGAL
@@ -750,38 +774,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: CGAL
-  binnames:
-    - CGAL-devel
-    - CGAL-qt5-devel
-    - CGAL-demos-source
-  visiblename: CGAL
-  version: 5.6.1
-  origversion: 5.6.1-1.fc40
-  status: legacy
-  summary: Computational Geometry Algorithms Library
-  licenses:
-    - LGPLv3+ and GPLv3+ and Boost
-  categories:
-    - Unspecified
-- repo: parrot
-  subrepo: parrot/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.0.1
-  origversion: 6.0.1-1
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: fedora_40
   subrepo: updates
   srcname: CGAL
   binnames:
@@ -795,6 +787,22 @@
   summary: Computational Geometry Algorithms Library
   licenses:
     - LGPL-3.0-or-later AND GPL-3.0-or-later AND BSL-1.0
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: CGAL
+  binnames:
+    - CGAL-devel
+    - CGAL-qt5-devel
+    - CGAL-demos-source
+  visiblename: CGAL
+  version: 5.6.1
+  origversion: 5.6.1-1.fc40
+  status: legacy
+  summary: Computational Geometry Algorithms Library
+  licenses:
+    - LGPLv3+ and GPLv3+ and Boost
   categories:
     - Unspecified
 - repo: fedora_41
@@ -830,22 +838,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: CGAL
-  binnames:
-    - CGAL-devel
-    - CGAL-qt6-devel
-    - CGAL-demos-source
-  visiblename: CGAL
-  version: 6.0.3
-  origversion: 6.0.3-1.fc42
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  licenses:
-    - LGPL-3.0-or-later AND GPL-3.0-or-later AND BSL-1.0
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: CGAL
   binnames:
@@ -856,6 +848,22 @@
   version: 6.0.1
   origversion: 6.0.1-2.fc42
   status: legacy
+  summary: Computational Geometry Algorithms Library
+  licenses:
+    - LGPL-3.0-or-later AND GPL-3.0-or-later AND BSL-1.0
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: CGAL
+  binnames:
+    - CGAL-devel
+    - CGAL-qt6-devel
+    - CGAL-demos-source
+  visiblename: CGAL
+  version: 6.0.3
+  origversion: 6.0.3-1.fc42
+  status: outdated
   summary: Computational Geometry Algorithms Library
   licenses:
     - LGPL-3.0-or-later AND GPL-3.0-or-later AND BSL-1.0
@@ -953,15 +961,6 @@
     - wen@freebsd.org
   categories:
     - math
-- repo: gobolinux
-  srcname: CGAL
-  visiblename: CGAL
-  version: "4.11"
-  origversion: null
-  status: outdated
-  summary: The Computational Geometry Algorithms Library
-  licenses:
-    - GNU General Public License version 3 or later.
 - repo: gentoo
   srcname: sci-mathematics/cgal
   visiblename: sci-mathematics/cgal
@@ -1022,6 +1021,18 @@
     - Boost-1.0
   categories:
     - sci-mathematics
+- repo: nix_stable_24_05
+  srcname: cgal
+  visiblename: cgal
+  version: 5.6.1
+  origversion: null
+  status: outdated
+  summary: Computational Geometry Algorithms Library
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-3.0-or-later
+    - LGPL-3.0-or-later
 - repo: gentoo
   srcname: sci-mathematics/cgal
   visiblename: sci-mathematics/cgal
@@ -1086,34 +1097,35 @@
   srcname: cgal
   binname: cgal
   visiblename: cgal
-  version: "6.2"
+  version: 5.6.3
   origversion: null
-  status: outdated
+  status: legacy
   summary: Computational geometry algorithms library
 - repo: gnuguix
   srcname: cgal
   binname: cgal
   visiblename: cgal
-  version: 5.6.3
+  version: "6.2"
   origversion: null
-  status: legacy
-  summary: Computational geometry algorithms library
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.0.1
-  origversion: 6.0.1-1
   status: outdated
-  maintainers:
-    - reichel@debian.org
+  summary: Computational geometry algorithms library
+- repo: gobolinux
+  srcname: CGAL
+  visiblename: CGAL
+  version: "4.11"
+  origversion: null
+  status: outdated
+  summary: The Computational Geometry Algorithms Library
+  licenses:
+    - GNU General Public License version 3 or later.
+- repo: haikuports_master
+  srcname: sci-mathematics/cgal
+  visiblename: sci-mathematics/cgal
+  version: "4.13"
+  origversion: null
+  status: outdated
   categories:
-    - libs
+    - sci-mathematics
 - repo: homebrew
   srcname: cgal
   visiblename: cgal
@@ -1242,18 +1254,6 @@
     - Boost-1.0
   categories:
     - sci-mathematics
-- repo: nix_stable_24_11
-  srcname: cgal_4
-  visiblename: cgal
-  version: 4.14.3
-  origversion: null
-  status: legacy
-  summary: Computational Geometry Algorithms Library
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-3.0-or-later
-    - LGPL-3.0-or-later
 - repo: liguros_develop
   srcname: sci-mathematics/cgal
   visiblename: sci-mathematics/cgal
@@ -1269,15 +1269,6 @@
     - Boost-1.0
   categories:
     - sci-mathematics
-- repo: pclinuxos
-  srcname: cgal
-  visiblename: cgal
-  version: "6.1"
-  origversion: 6.1-1pclos2026
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  categories:
-    - System/Libraries
 - repo: liguros_develop
   srcname: sci-mathematics/cgal
   visiblename: sci-mathematics/cgal
@@ -1493,18 +1484,6 @@
   licenses:
     - spdx:CC0-1.0 AND BSL-1.0 AND MIT AND LGPL-3.0-or-later AND GPL-3.0-or-later
 - repo: nix_stable_24_05
-  srcname: cgal
-  visiblename: cgal
-  version: 5.6.1
-  origversion: null
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-3.0-or-later
-    - LGPL-3.0-or-later
-- repo: nix_stable_24_05
   srcname: cgal_4
   visiblename: cgal
   version: 4.14.3
@@ -1522,6 +1501,18 @@
   version: 5.6.2
   origversion: null
   status: outdated
+  summary: Computational Geometry Algorithms Library
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-3.0-or-later
+    - LGPL-3.0-or-later
+- repo: nix_stable_24_11
+  srcname: cgal_4
+  visiblename: cgal
+  version: 4.14.3
+  origversion: null
+  status: legacy
   summary: Computational Geometry Algorithms Library
   maintainers:
     - 7c6f434c@mail.ru
@@ -1617,18 +1608,6 @@
   licenses:
     - GPL-3.0-or-later
     - LGPL-3.0-or-later
-- repo: openbsd
-  srcname: math/cgal
-  binname: cgal
-  visiblename: math/cgal
-  version: 6.1.1
-  origversion: 6.1.1v0
-  status: outdated
-  summary: Computational Geometry Algorithms Library
-  maintainers:
-    - ports@openbsd.org
-  categories:
-    - math
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: cgal
@@ -1690,6 +1669,22 @@
     - LGPLv3+ and GPLv3+ and Boost
   categories:
     - System/Libraries
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: cgal
+  binnames:
+    - libcgal-demo
+    - libcgal-dev
+    - libcgal-ipelets
+    - libcgal-qt6-dev
+  visiblename: cgal
+  version: 6.0.1
+  origversion: 6.0.1-1
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - devel
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: cgal
@@ -1833,6 +1828,47 @@
     - reichel@debian.org
   categories:
     - libs
+- repo: parrot
+  subrepo: parrot/main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 6.0.1
+  origversion: 6.0.1-1
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: cgal
+  binnames:
+    - libcgal-dev
+    - libcgal-qt6-dev
+    - libcgal-demo
+    - libcgal-ipelets
+  visiblename: cgal
+  version: 6.0.1
+  origversion: 6.0.1-1
+  status: outdated
+  maintainers:
+    - reichel@debian.org
+  categories:
+    - libs
+- repo: pclinuxos
+  srcname: cgal
+  visiblename: cgal
+  version: "6.1"
+  origversion: 6.1-1pclos2026
+  status: outdated
+  summary: Computational Geometry Algorithms Library
+  categories:
+    - System/Libraries
 - repo: pkgsrc_2026_2
   srcname: math/cgal
   binname: cgal
@@ -1893,38 +1929,6 @@
     - reichel@debian.org
   categories:
     - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: cgal
-  binnames:
-    - libcgal-demo
-    - libcgal-dev
-    - libcgal-ipelets
-    - libcgal-qt5-dev
-  visiblename: cgal
-  version: "5.2"
-  origversion: 5.2-3
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: cgal
-  binnames:
-    - libcgal-demo
-    - libcgal-dev
-    - libcgal-ipelets
-    - libcgal-qt6-dev
-  visiblename: cgal
-  version: 6.0.1
-  origversion: 6.0.1-1
-  status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - devel
 - repo: raspbian_oldstable
   subrepo: main
   srcname: cgal
@@ -1953,22 +1957,6 @@
   version: 6.0.1
   origversion: 6.0.1-1
   status: outdated
-  maintainers:
-    - reichel@debian.org
-  categories:
-    - libs
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cgal
-  binnames:
-    - libcgal-dev
-    - libcgal-qt6-dev
-    - libcgal-demo
-    - libcgal-ipelets
-  visiblename: cgal
-  version: 6.2.1
-  origversion: 6.2.1-1
-  status: newest
   maintainers:
     - reichel@debian.org
   categories:
@@ -2436,6 +2424,18 @@
   summary: Computational Geometry Algorithms Library
   categories:
     - Devel
+- repo: openbsd
+  srcname: math/cgal
+  binname: cgal
+  visiblename: math/cgal
+  version: 6.1.1
+  origversion: 6.1.1v0
+  status: outdated
+  summary: Computational Geometry Algorithms Library
+  maintainers:
+    - ports@openbsd.org
+  categories:
+    - math
 - repo: xrepo
   srcname: cgal
   visiblename: cgal
