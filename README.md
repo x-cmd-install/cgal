@@ -26,7 +26,7 @@ Total: **2,136,257** lines of code across **9263** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.7 / 10**
+Overall score: **4.8 / 10**
 
 Lowest-scoring checks:
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,126 · **Forks**: 1,626 · **Open issues**: 3,478 · **Contributors**: 220
+- **Stars**: 6,126 · **Forks**: 1,624 · **Open issues**: 3,479 · **Contributors**: 220
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5339 · **Open PRs**: 211 · **Closed issues**: 2986 · **Open issues**: 492 · **Commits**: 118421
+- **Releases**: 99 · **Merged PRs**: 5339 · **Open PRs**: 212 · **Closed issues**: 2986 · **Open issues**: 493 · **Commits**: 118421
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 50 | 34 | 6 | 9 | 265 |
-| last60d | 2026-09-16 | 0 | 91 | 72 | 13 | 14 | 657 |
-| 90d | 2026-08-17 | 2 | 125 | 75 | 25 | 19 | 1018 |
-| last180d | 2026-05-19 | 5 | 204 | 82 | 42 | 25 | 1613 |
-| 360d | 2025-11-20 | 7 | 377 | 119 | 86 | 46 | 3198 |
-| last720d | 2024-11-25 | 12 | 648 | 146 | 201 | 92 | 6569 |
+| 30d | 2026-10-17 | 0 | 49 | 33 | 6 | 10 | 265 |
+| last60d | 2026-09-17 | 0 | 90 | 73 | 12 | 15 | 657 |
+| 90d | 2026-08-18 | 2 | 125 | 76 | 25 | 20 | 1018 |
+| last180d | 2026-05-20 | 5 | 204 | 83 | 41 | 26 | 1613 |
+| 360d | 2025-11-21 | 7 | 374 | 120 | 86 | 47 | 3198 |
+| last720d | 2024-11-26 | 12 | 646 | 147 | 201 | 93 | 6568 |
 
 ## Release assets
 
@@ -110,4 +110,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T04:36:22Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T04:29:50Z._
