@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 5339 · **Open PRs**: 216 · **Closed issues**: 2990 · **Open issues**: 490 · **Commits**: 118421
+- **Releases**: 99 · **Merged PRs**: 5339 · **Open PRs**: 218 · **Closed issues**: 2990 · **Open issues**: 490 · **Commits**: 118421
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-19 | 0 | 45 | 36 | 7 | 9 | 265 |
-| last60d | 2026-09-19 | 0 | 89 | 77 | 13 | 15 | 657 |
-| 90d | 2026-08-20 | 2 | 122 | 81 | 24 | 20 | 1018 |
-| last180d | 2026-05-22 | 4 | 198 | 88 | 41 | 25 | 1613 |
-| 360d | 2025-11-23 | 7 | 374 | 124 | 87 | 47 | 3198 |
-| last720d | 2024-11-28 | 12 | 643 | 151 | 201 | 93 | 6563 |
+| 30d | 2026-10-20 | 0 | 43 | 37 | 7 | 6 | 265 |
+| last60d | 2026-09-20 | 0 | 89 | 79 | 13 | 15 | 657 |
+| 90d | 2026-08-21 | 2 | 122 | 82 | 24 | 20 | 1018 |
+| last180d | 2026-05-23 | 4 | 198 | 90 | 41 | 25 | 1613 |
+| 360d | 2025-11-24 | 7 | 373 | 126 | 84 | 47 | 3198 |
+| last720d | 2024-11-29 | 12 | 642 | 153 | 201 | 93 | 6555 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **190** distros on [repology.org](https://repology.org/project/cgal). **32** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
+Reported by **188** distros on [repology.org](https://repology.org/project/cgal). **36** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -110,4 +110,4 @@ Install metadata for cgal lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261118.yml` · 2026-11-18T05:44:25Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T05:40:49Z._
